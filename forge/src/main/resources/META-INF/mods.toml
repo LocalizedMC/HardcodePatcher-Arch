@@ -1,17 +1,18 @@
 modLoader = "javafml"
 loaderVersion = "[36,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "GPLv3"
 
 [[mods]]
 modId = "hardcodepatcher"
 version = "${version}"
 displayName = "HardcodePatcher"
+displayURL = ""
 authors = "Me!"
 description = '''
 
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.hardcodepatcher]]
 modId = "forge"
@@ -27,7 +28,7 @@ versionRange = "[1.16.5,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.hardcodepatcher]]
 modId = "architectury"
 mandatory = true
 versionRange = "[1.32.66,)"

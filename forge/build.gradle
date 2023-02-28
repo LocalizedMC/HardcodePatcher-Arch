@@ -7,6 +7,8 @@ architectury {
     forge()
 }
 
+project.archivesBaseName = rootProject.archivesBaseName + "-Forge"
+
 loom {
     //accessWidenerPath = project(":common").loom.accessWidenerPath
 
@@ -29,8 +31,6 @@ configurations {
 
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
-    // Remove the next line if you don't want to depend on the API
-    modApi "me.shedaniel:architectury-forge:${rootProject.architectury_version}"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
