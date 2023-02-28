@@ -4,23 +4,23 @@ loaderVersion = "[36,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "examplemod"
+modId = "hardcodepatcher"
 version = "${version}"
-displayName = "Example Mod"
+displayName = "HardcodePatcher"
 authors = "Me!"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.hardcodepatcher]]
 modId = "forge"
 mandatory = true
 versionRange = "[36,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.hardcodepatcher]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.5,)"

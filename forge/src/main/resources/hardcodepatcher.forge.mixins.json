@@ -1,9 +1,8 @@
 {
   "required": true,
-  "package": "net.examplemod.mixin",
+  "package": "org.localmc.tools.hardcodepatcher.forge.mixin",
   "compatibilityLevel": "JAVA_8",
   "client": [
-    "MixinTitleScreen"
   ],
   "mixins": [
   ],
